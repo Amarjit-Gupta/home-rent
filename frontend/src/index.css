@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+input:-webkit-autofill,textarea:-webkit-autofill {
+  transition-duration: 5000s;
+}
+
+.x1{top:100%;}

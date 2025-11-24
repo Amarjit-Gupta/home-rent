@@ -20,14 +20,11 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Build Docker image from backend folder
-<<<<<<< HEAD
         run: docker build backend -f backend/Dockerfile -t amar08545/node-app:latest
 
       - name: Push Docker image
         run: docker push amar08545/node-app:latest
-=======
         run: docker build backend -f backend/Dockerfile -t amar08545/home-rent:latest
 
       - name: Push Docker image
         run: docker push amar08545/home-rent:latest
->>>>>>> c8b22e477f496800becf7a52d25700770bb2f667

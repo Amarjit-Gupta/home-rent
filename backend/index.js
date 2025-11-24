@@ -16,7 +16,7 @@ app.use(cors({
 }));
 
 app.get("/",(req,res)=>{
-    res.send("Api Working");
+    res.send("Api Working...");
 });
 
 // for authroute
